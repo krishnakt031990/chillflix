@@ -1,0 +1,8 @@
+WelcomeIntent search for {search_for}
+SearchIntent does Netflix have {search_name}
+SearchIntent can I find {search_name} in Netflix
+MoreInfoIntent I want to know the {more_info_search}
+MoreInfoIntent what is the {more_info_search}
+MoreInfoIntent what is the {more_info_search} of {search_name}
+MoreInfoIntent give me an {more_info_search} of {search_name}
+MoreInfoIntent give me an {more_info_search}

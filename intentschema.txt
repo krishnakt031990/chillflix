@@ -1,0 +1,47 @@
+{
+  "intents": [
+    {
+      "intent": "WelcomeIntent",
+      "slots": [
+        {
+          "name": "search_for",
+          "type": "SEARCH_FOR"
+        }
+      ]
+    },
+    {
+      "intent": "SearchIntent",
+      "slots": [
+        {
+          "name": "search_name",
+          "type": "SEARCH_NAME"
+        }
+      ]
+    },
+    {
+      "intent": "MoreInfoIntent",
+      "slots": [
+        {
+          "name": "more_info_search",
+          "type": "MORE_INFO"
+        },
+        {
+          "name": "search_name",
+          "type": "SEARCH_NAME"
+        }
+      ]
+    },
+    {
+    	"intent": "AMAZON.HelpIntent"
+    },
+    {
+      	"intent": "AMAZON.NoIntent"
+    },
+    {
+      	"intent": "AMAZON.StopIntent"
+    },
+    {
+      	"intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
